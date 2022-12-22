@@ -13,12 +13,8 @@
         "packagesPath": "/home/runner/.nuget/packages/",
         "outputPath": "/home/runner/ICS2O-Unit6-03-CSharp/obj/",
         "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/runner/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp6.0"
-        ],
+        "configFilePaths": ["/home/runner/.nuget/NuGet/NuGet.Config"],
+        "originalTargetFrameworks": ["netcoreapp6.0"],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -29,22 +25,13 @@
           }
         },
         "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
+          "warnAsError": ["NU1605"]
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "netcoreapp6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
+          "imports": ["net461", "net462", "net47", "net471", "net472", "net48"],
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
